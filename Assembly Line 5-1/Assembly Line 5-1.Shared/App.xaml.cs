@@ -36,7 +36,7 @@ namespace Assembly_Line_5_1
 #if WINDOWS_PHONE_APP
         private TransitionCollection transitions;
 #endif
-        public static MobileServiceClient MobileService = new MobileServiceClient(
+        public static MobileServiceClient MobileService = new MobileServiceClient( 
 );
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
